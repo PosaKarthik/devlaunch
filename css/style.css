@@ -30,3 +30,20 @@
 body{
     
 }
+
+/* ===============================
+        NAVBAR 
+================================= */
+
+.navbar-brand{
+        color: #0f172a;
+}
+
+.nav-link{
+        font-weight: 500;
+        transition: 0.3s;
+}
+
+.nav-link:hover{
+        color: #0d6efd;
+}
