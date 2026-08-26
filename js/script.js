@@ -35,3 +35,45 @@ topicsCount.textContent = topics;
 problemsCount.textContent = problems;
 
 projectsCount.textContent = projects;
+
+
+const javaProgressBar = document.getElementById("javaProgressBar");
+
+const dsaProgressBar = document.getElementById("dsaProgressBar");
+
+const jsProgressBar = document.getElementById("jsProgressBar");
+
+const projectsProgressBar = document.getElementById("projectsProgressBar");
+
+const javaProgress = 80;
+
+const dsaProgress = 65;
+
+const jsProgress = 55;
+
+const projectsProgress = 70;
+
+javaProgressBar.style.width = javaProgress + "%";
+
+dsaProgressBar.style.width = dsaProgress + "%";
+
+jsProgressBar.style.width = jsProgress + "%";
+
+projectsProgressBar.style.width = projectsProgress + "%";
+
+const javaProgressText = document.getElementById("javaProgressText");
+
+const dsaProgressText = document.getElementById("dsaProgressText");
+
+const jsProgressText = document.getElementById("jsProgressText");
+
+const projectsProgressText = document.getElementById("projectsProgressText");
+
+javaProgressText.textContent = javaProgress + "%";
+
+dsaProgressText.textContent = dsaProgress + "%";
+
+jsProgressText.textContent = jsProgress + "%";
+
+projectsProgressText.textContent = projectsProgress + "%";
+
