@@ -77,3 +77,25 @@ jsProgressText.textContent = jsProgress + "%";
 
 projectsProgressText.textContent = projectsProgress + "%";
 
+// Learning Goal
+
+const goalInput = document.getElementById("goalInput");
+
+const setGoalBtn = document.getElementById("setGoalBtn");
+
+const goalMessage = document.getElementById("goalMessage");
+
+const goalText = document.getElementById("goalText");
+
+
+setGoalBtn.addEventListener("click", function(){
+    const goal = goalInput.value.trim();
+
+    if(goal === ""){
+        goalMessage.classList.add("d-none");
+        return;
+    }
+    goalText.textContent = goal;
+
+    goalMessage.classList.remove("d-none");
+})

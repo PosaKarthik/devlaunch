@@ -259,3 +259,29 @@ html{
 section{
         scroll-margin-top: 80px;
 }
+
+
+/* ===============================
+        GOAL SECTION
+================================= */
+
+.goal-section{
+        background: #f8fafc;
+}
+
+.goal-intro{
+        max-width: 650px;
+}
+
+.goal-card{
+        border-radius: 20px;
+}
+
+.goal-card .form-control{
+        height: 48px;
+}
+
+.goal-card .btn{
+        height: 48px;
+        white-space: nowrap;
+}

@@ -639,5 +639,56 @@
         </div>
       </div>
     </section>
+
+    <!-- Learning Goal Section -->
+
+    <section id="goal" class="gaol-section py-5">
+      <div class="container py-5">
+
+        <div class="text-center mb-5">
+          <span class="badge bg-primary-subtle text-primary mb-3">
+              Stay Focused
+          </span>
+          <h2 class="display-6 fw-bold">
+            Set Your
+            <span class="text-primary">Learning Goals</span>
+          </h2>
+          <p class="text-secondary mx-auto goal-intro">
+            Choose a goal and keep yourself focused on consistent progress.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-7">
+
+            <div class="card goal-card border-0 shadow-sm">
+              <div class="card-body p-4 p-md-5">
+
+                <label for="goalInput" class="form-label fw-semibold">
+                  What do you want to achieve?
+                </label>
+
+                <div class="d-flex align-items-center gap-2">
+
+                  <input type="text" id="goalInput" class="form-control" placeholder="e.g. Complete 5 DSA problems"/>
+                  <button id="setGoalBtn" class="btn btn-primary" type="button">
+                    Set Goal
+                  </button>
+                </div>
+
+                <div id="goalMessage" class="alert alert-primary mt-4 mb-0 d-none">
+                  <strong>Your Goal:</strong>
+                  <span id="goalText"></span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
   </body>
 </html>
