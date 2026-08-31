@@ -98,4 +98,22 @@ setGoalBtn.addEventListener("click", function(){
     goalText.textContent = goal;
 
     goalMessage.classList.remove("d-none");
+
+    goalMessage.classList.remove("alert-success");
+    goalMessage.classList.add("alert-primary");
+    completeGoalBtn.textContent = "Mark Complete";
+    completeGoalBtn.disabled = false;
+
+
 })
+
+const completeGoalBtn = document.getElementById("completeGoalBtn");
+
+completeGoalBtn.addEventListener("click", function (){
+    goalMessage.classList.remove("alert-primary");
+    goalMessage.classList.add("alert-success");
+    completeGoalBtn.textContent = "Completed ✅";
+    completeGoalBtn.disabled = true;
+} 
+
+)
