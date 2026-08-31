@@ -20,6 +20,11 @@
         SMALL MOBILE
 ================================= */
 
-@media (max-width:480px){
+@media (max-width:576px){
     
+        .hero-section .mt-4 .btn{
+                width: 100%;
+                margin-right: 0 !important;
+                margin-bottom: 12px;
+        }
 }

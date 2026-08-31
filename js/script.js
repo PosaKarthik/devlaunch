@@ -4,7 +4,6 @@ DevLaunch JavaScript
 ========================
 */
 
-console.log("DevLaunch JavaScript Started 🚀");
 
 const getStartedBtn = document.getElementById("getStartedBtn");
 
